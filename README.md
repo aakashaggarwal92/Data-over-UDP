@@ -161,6 +161,10 @@ At the receiver side, the integrity check is validated using the following steps
 
 The above steps should be followed both at the transmitter and the receiver ends to ensure data integrity during communication.
 
+## UML Diagram for Receiver and Transmitter
+
+![uml-diagram](https://github.com/aakashaggarwal92/Data-over-UDP/assets/8023490/d3f0d0f1-69dd-48a0-b7b1-c442f08616aa)
+
 ## Function Descriptions
 
 ### Transmitter Functions
