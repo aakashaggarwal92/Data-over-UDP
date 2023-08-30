@@ -49,9 +49,8 @@ Detailed explanation of the integrity check algorithm is provided, which involve
   - Receiver accepts DATA packets and sends DACKs.
   - Payloads are displayed on the screen.
 
-![protocol-state-diagram](https://github.com/aakashaggarwal92/Data-over-UDP/assets/8023490/ee159b0d-62bd-4161-a5a2-3cb7188009a2) 
+![protocol-state-diagram-image](https://github.com/aakashaggarwal92/Data-over-UDP/assets/8023490/75cfd5dc-da71-4578-ad3b-365683952e90)
 
- 
 ## RTT & Data Rate Measurements
 
 ### Round-Trip Time (RTT) Measurement at Transmitter
