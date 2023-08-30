@@ -215,9 +215,85 @@ The above steps should be followed both at the transmitter and the receiver ends
 
 
 
-## Installation and Usage
+# UDP Communication: Transmitter and Receiver
 
-Instructions for setting up and running the application.
+A simple implementation of a UDP transmitter and receiver in Java.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Files](#files)
+- [Outputs](#outputs)
+- [License](#license)
+- [Contributors](#contributors)
+
+## Prerequisites
+
+- Java JDK (Java Development Kit)
+- A Java IDE (like IntelliJ, Eclipse, or any text editor for compiling via terminal)
+
+
+## Installation
+
+1. Make sure you have Java JDK installed on your machine.
+2. Clone this repository:
+    \`\`\`bash
+    git clone https://github.com/aakashaggarwal92/Data-over-UDP.git
+    \`\`\`
+3. Navigate to the repository:
+    \`\`\`bash
+    cd Data-over-UDP
+    \`\`\`
+
+## Usage
+
+### Compile the Java files
+
+First, compile the `Receiver.java` and `Transmitter.java` files:
+
+\`\`\`bash
+javac Receiver.java
+javac Transmitter.java
+\`\`\`
+
+### Run the Receiver
+
+Start the receiver first to make sure it's ready to receive messages.
+
+\`\`\`bash
+java Receiver
+\`\`\`
+
+By default, the receiver listens on port `9876`.
+
+### Run the Transmitter
+
+In a new terminal window, run:
+
+\`\`\`bash
+java Transmitter
+\`\`\`
+
+The transmitter will send a message to the receiver, which will be displayed in the receiver's terminal window.
+
+## Files
+
+### `Receiver.java`
+
+A simple UDP receiver that listens for incoming UDP packets on a specified port and prints the received data.
+
+
+### `Transmitter.java`
+
+A simple UDP transmitter that sends a message to the receiver.
+
+
+## Outputs
+
+![Outputs](https://github.com/aakashaggarwal92/Data-over-UDP/assets/8023490/9c93b0b4-b276-4ae3-b00d-69ffb302cbaa)
+
 
 ## License
 
